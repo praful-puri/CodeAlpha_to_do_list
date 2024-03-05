@@ -33,8 +33,8 @@ h1 {
 }
 
 .complete {
-  text-decoration: line-through;
-  opacity: 0.4;
+
+  color:lime;
 }
 
 .todo-form {
@@ -129,6 +129,10 @@ h1 {
     rgb(116, 114, 100) 100%
   );
 }
+.green
+{
+  color: lime;
+}
 
 .icons {
   display: flex;
@@ -137,11 +141,14 @@ h1 {
   cursor: pointer;
 }
 
+
+
 .delete-icon {
-  margin-right: 5px;
   color: #fff;
+  
 }
 
 .edit-icon {
+
   color: #fff;
 }

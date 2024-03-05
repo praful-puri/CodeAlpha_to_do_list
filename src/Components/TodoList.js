@@ -57,6 +57,7 @@ function TodoList() {
     };
 
 
+    
     useEffect(() =>{
       localStorage.setItem('lists',JSON.stringify(todos))
     },[todos]);
@@ -64,7 +65,7 @@ function TodoList() {
     <div>
         <h1>Todo-List</h1>
         <TodoForm onSubmit={addTodo} />
-        <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo} />
+        <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo}  />
     </div>
   );
 }
